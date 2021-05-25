@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  color: #111238;
+}
+header {
+  height: 100px;
+  /* border: solid red 1px; */
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-item:not(:last-child) {
+  margin-right: 20px;
+}
+.menu-link {
+  font-family: Fira Sans;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111238;
+  text-decoration: none;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+}
+.button-link {
+  color: #111238;
+  margin-right: 30px;
+  padding: 10px;
+}
+.button-primary {
+  background: #1a75e8;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  border-radius: 5px;
+  color: #fff;
+}
